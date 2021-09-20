@@ -1,0 +1,54 @@
+.card {
+  background-color: var(--white);
+  border-radius: 12px;
+  min-inline-size: 343px;
+  min-block-size: 148px;
+  max-inline-size: 343px;
+  max-block-size: 148px;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.cardImg {
+  max-width: 85px;
+  max-height: 116px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.cardImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardTitle a {
+  color: var(--black);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+
+.cardInfo {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.circle {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--grey);
+}
+
+.readTime {
+  opacity: 0.4;
+}
