@@ -11,7 +11,7 @@ export const Header = () => {
         <img src={logo} alt="Logo" width="80" height="80" />
       </div>
       <div className={styles.headerTitle}>
-        <a href="https://leonidasesteban.com/" target="_blank">
+        <a href="https://leonidasesteban.com/" target="_blank" rel="noreferrer">
           leonidas esteban.com
         </a>
       </div>
