@@ -41,6 +41,18 @@
   align-items: center;
 }
 
+.profilePicture {
+  max-width: 16px;
+  max-height: 16px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
+.profilePicture img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .circle {
   display: block;
   width: 10px;
