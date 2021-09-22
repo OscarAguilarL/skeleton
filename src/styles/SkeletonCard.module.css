@@ -1,0 +1,125 @@
+.skeletonCard {
+  background-color: var(--white);
+  border-radius: 12px;
+  inline-size: 343px;
+  block-size: 148px;
+  max-inline-size: 343px;
+  max-block-size: 148px;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.skeletonImg {
+  min-width: 85px;
+  min-height: 116px;
+  max-width: 85px;
+  max-height: 116px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(
+    89.42deg,
+    rgba(210, 210, 210, 0) 0.5%,
+    #bdbdbd 50.52%,
+    rgba(210, 210, 210, 0) 99.5%
+  );
+  background-size: contain;
+  animation: shine 1.5s infinite;
+}
+
+.skeletonCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+
+.skeletonCardTitle {
+  min-width: 190px;
+  min-height: 40px;
+  max-width: 190px;
+  max-height: 40px;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(
+    89.42deg,
+    rgba(210, 210, 210, 0) 0.5%,
+    #bdbdbd 50.52%,
+    rgba(210, 210, 210, 0) 99.5%
+  );
+  background-size: contain;
+  animation: shine 1.5s infinite;
+}
+
+.skeletonCardInfo {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.skeletonProfilePicture {
+  min-width: 16px;
+  min-height: 16px;
+  max-width: 16px;
+  max-height: 16px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(
+    89.42deg,
+    rgba(210, 210, 210, 0) 0.5%,
+    #bdbdbd 50.52%,
+    rgba(210, 210, 210, 0) 99.5%
+  );
+  background-size: contain;
+  animation: shine 1.5s infinite;
+}
+
+.skeletonCardName {
+  max-width: 55px;
+  max-height: 16px;
+  min-width: 55px;
+  min-height: 16px;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(
+    89.42deg,
+    rgba(210, 210, 210, 0) 0.5%,
+    #bdbdbd 50.52%,
+    rgba(210, 210, 210, 0) 99.5%
+  );
+  background-size: contain;
+  animation: shine 1.5s infinite;
+}
+
+.circle {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--grey);
+}
+
+.skeletonCardReadTime {
+  min-width: 65px;
+  min-height: 16px;
+  max-width: 65px;
+  max-height: 16px;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(
+    89.42deg,
+    rgba(210, 210, 210, 0) 0.5%,
+    #bdbdbd 50.52%,
+    rgba(210, 210, 210, 0) 99.5%
+  );
+  background-size: contain;
+  animation: shine 1.5s infinite;
+}
+
+@keyframes shine {
+  from {
+    background-position: left -50px center;
+  }
+  to {
+    background-position: right -50px center;
+  }
+}
