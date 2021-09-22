@@ -63,6 +63,7 @@
   max-width: 16px;
   max-height: 16px;
   overflow: hidden;
+  border-radius: 50%;
   aspect-ratio: 1 / 1;
   background-color: #d2d2d2;
   background-image: linear-gradient(
